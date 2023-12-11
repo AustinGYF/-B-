@@ -4,7 +4,8 @@
 chcp 65001
 
 :: Set the working dir to Genshin Impact Game dir.
-set PATH=
+set GAMEPATH=
+set SELECTORPATH=
 
 :: User selecting server.
 echo Select Server
@@ -23,14 +24,14 @@ echo NOT FOUND.
 goto commonexit
 
 :guanFu
-del "%PATH%\config.ini"
-copy "%PATH%\MyChanger\guanconfig.ini" "%PATH%\config.ini"
+del "%GAMEPATH%\config.ini"
+copy "%SELECTORPATH%\guanconfig.ini" "%GAMEPATH%\config.ini"
 echo Now in Mihoyo Server
 goto commonexit
 
 :bFu
-del "%PATH%\config.ini"
-copy "%PATH%\MyChanger\Bconfig.ini" "%PATH%\config.ini"
+del "%GAMEPATH%\config.ini"
+copy "%SELECTORPATH%\Bconfig.ini" "%GAMEPATH%\config.ini"
 echo Now in Bilibili Server
 goto commonexit
 

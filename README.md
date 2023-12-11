@@ -1,5 +1,5 @@
 # 国服官服切换脚本
-### 一个简单的bat脚本，完成B服与国服切换
+### 一个简单的bat脚本，完成B服与国服相互切换
 
 ## 方法来自 [御言527的文章](https://www.bilibili.com/read/cv22161567/?spm_id_from=333.999.collection.opus.click)
 

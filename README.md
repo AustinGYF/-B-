@@ -1,7 +1,7 @@
 # 国服官服切换脚本
 ### 一个简单的bat脚本，完成B服与国服相互切换
 
-## 方法来自 [御言527的文章](https://www.bilibili.com/read/cv22161567/?spm_id_from=333.999.collection.opus.click)
+## 方法来自 [B站@御言527 的文章](https://www.bilibili.com/read/cv22161567/?spm_id_from=333.999.collection.opus.click)
 
 # 使用方法
 1. 编辑 `MyChanger\changer_V1.1.bat`，将游戏目录（以下称为 `PATH`）复制到 `set PATH=` 等号后并保存

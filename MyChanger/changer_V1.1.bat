@@ -4,7 +4,7 @@
 chcp 65001
 
 :: Set the working dir to Genshin Impact Game dir.
-set PATH=C:\Program Files\Genshin Impact\Genshin Impact Game
+set PATH=
 
 :: User selecting server.
 echo Select Server
